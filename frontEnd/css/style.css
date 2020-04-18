@@ -1,0 +1,35 @@
+/*Seletor universal usa-se *{}  
+Estiliza o documento inteiro*/
+*{  background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Seletor por tag usa-se tag{}
+Exemplo: h1{}*/
+
+footer{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/*Seletor por class usa-se .nomeclass{}
+Estiliza apenas as tags em que foi add*/
+
+/*class imagens*/
+.imgPadrao{ 
+    margin-bottom: 20px;
+    width: 200px;
+    height: 300px;
+}
+.imgIcon{   
+    margin-top: 10px;
+    height: 30px 
+}
+
+/*Seletor por id usa-se #nomeid{}
+Estiliza apenas um elemento*/
+
+#menu{
+    color: maroon;
+    font-size: 20px;
+}
